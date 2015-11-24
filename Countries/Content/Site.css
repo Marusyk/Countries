@@ -1,0 +1,88 @@
+﻿body {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 50px;
+    padding-right: 5px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.editor-label, 
+.editor-field,
+.display-label, 
+.display-field {
+    float: left;
+    margin-top: 10px;
+}
+
+input[type=submit] { 
+    float: left; 
+    clear: both; 
+    margin-top: 10px;
+}
+
+.link {
+     float: left; 
+     clear: both; 
+     margin-top: 10px;
+}
+
+.editor-label label, 
+.editor-field input {
+    height: 20px;    
+}
+
+.editor-field textarea {
+    height: 150px;
+}
+
+.editor-label,
+.display-label {
+    clear: left;
+}
+
+.editor-field { 
+    margin-left: 10px; margin-top: 10px;
+}
+
+.display-field {
+    width: 80%;
+    height: 4px;
+    margin-left: 10px;
+    
+}
+
+.display-label {
+   font-weight: bold; 
+   width: 150px;   
+}
+
+
+

@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Countries.Models.CountryInfo>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>All countries</h2>
+
+<table class="table table-hover">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Capital)
+        </th>
+        <th>
+            ISO code
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Capital)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsoCode)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { guid = item.Guid }) |
+            @Html.ActionLink("Details", "Details", new { guid = item.Guid }) |
+            @Html.ActionLink("Delete", "Delete", new { guid = item.Guid })
+        </td>
+    </tr>
+}
+
+</table>
+
+<p>
+    <h3>@Html.ActionLink("Add a new country", "Create")</h3>
+</p>

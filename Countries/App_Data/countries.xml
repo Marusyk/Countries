@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Countries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Country>
+    <Guid>f45ec1aa-cb67-4332-bdec-94ac4c6425ac</Guid>
+    <Name>United states</Name>
+    <Capital>Washington</Capital>
+    <IsoCode>USA</IsoCode>
+    <Description>The United States of America (USA), commonly referred to as the United States (U.S.) or America, is a federal republic composed of 50 states</Description>
+  </Country>
+  <Country>
+    <Guid>445ec1aa-cb67-4332-bdec-94ac4c6425aa</Guid>
+    <Name>Poland</Name>
+    <Capital>Warsaw</Capital>
+    <IsoCode>PL</IsoCode>
+    <Description>Poland, officially the Republic of Poland  is a country in Central Europe</Description>
+  </Country>
+  <Country>
+    <Guid>b0ce02b1-e860-4d0e-8d09-a2224e9d52c3</Guid>
+    <Name>Ukraine</Name>
+    <Capital>Kiev</Capital>
+    <IsoCode>UA</IsoCode>
+    <Description>Ukraine is a country in Eastern Europe</Description>
+  </Country>
+</Countries>
